@@ -1,3 +1,25 @@
+# Quick Start
+
+```
+git clone https://github.com/yli147/Hanabi_SPARTA.git
+cd Hanabi_SPARTA
+```
+
+Backend:
+```
+docker build -t hanabi .
+docker run -it --rm -e BOT=SmartBot hanabi
+```
+
+Frontend:
+```
+cd webapp
+sudo apt-get install npm
+sudo -E npm install
+sudo -E npm run start
+```
+
+
 # Cooperative Search in Hanabi (SPARTA)
 
 This repository implements [Search in Cooperative Partially-Observable Games](https://arxiv.org/abs/1912.02318), presented at AAAI 2020, that can be run on top of either heuristic policies, or RL policies based on the [Simplified Action Decoder](https://arxiv.org/abs/1912.02288) (SAD).
