@@ -8,7 +8,7 @@ cd Hanabi_SPARTA
 Backend:
 ```
 docker build -t hanabi .
-docker run -it --rm -e BOT=SmartBot hanabi
+docker run -it -p 5000:5000  --rm -e BOT=SmartBot hanabi
 ```
 
 Frontend:
