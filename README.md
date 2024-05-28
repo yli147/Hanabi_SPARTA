@@ -16,6 +16,7 @@ Frontend:
 cd webapp
 sudo apt-get install npm
 sudo -E npm install
+sudo -E npm install --save --save-exact react-scripts@3.4.0
 sudo -E npm run start
 ```
 
